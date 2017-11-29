@@ -15,5 +15,6 @@ public class Pendulo {
 	 */
 	public static double calcularPeriodo(double longitud) {
 		return 2*Math.PI * Math.sqrt(longitud/GRAVEDAD);
+		
 	}
 }
